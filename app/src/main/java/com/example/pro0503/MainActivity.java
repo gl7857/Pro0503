@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         btn = findViewById(R.id.btn);
     }
 
-
     public void clicked(View view) {
         clicksNumber++;
         txView.setText("This is a click number:"+clicksNumber);
